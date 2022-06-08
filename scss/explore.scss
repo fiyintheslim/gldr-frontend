@@ -1,0 +1,69 @@
+@import "mixins";
+@import "variables";
+.explore__heading{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    .heading{
+        font-family: "Sen", sans-serif;
+        font-weight: 700;
+        @include toRem(font-size, 42);
+        @include toRem(line-height, 52);
+        
+    }
+}
+.tabs{
+    display: flex;
+    border: solid 1px $primary-color;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 0.5rem;
+    width: 55rem;
+    margin-left: 3rem;
+    .active{
+        background: $primary-color;
+        color: #fff;
+    }
+    .all{
+        color: $primary-color;
+    }
+}
+.tab__item{
+    background: none;
+    @include toRem(font-size, 20);
+    font-weight: 400;
+    border: none;
+    @include toRem(height, 47);
+    border-radius: 0.5rem;
+    flex-grow: 1;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    margin: 0.5rem;
+    
+    
+    
+    @include toRem(width, 270);
+    @include toRem(height, 408);
+    &:hover{
+        box-shadow: 0px 5px 15px 10px rgba(0, 0, 0, 0.2)
+    }
+    .content{
+        flex-grow: 1;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+}
+.course-img{
+    width: 100%;
+    object-fit: cover;
+}

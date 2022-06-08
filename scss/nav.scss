@@ -30,7 +30,7 @@ nav.base{
     // @include toRem(font-size, 16);
 }
 
-.active{
+.nav-item.active{
     color: $primary-color;
     position: relative;
     &:after{
