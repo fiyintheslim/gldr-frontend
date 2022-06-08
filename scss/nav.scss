@@ -26,6 +26,7 @@ nav.base{
 .nav-item{
     font-weight: 600;
     font-size: $font-16;
+    
     // @include toRem(font-size, 16);
 }
 
@@ -55,4 +56,5 @@ nav.base{
     background: $primary-color;
     font-weight: 600;
     @include toRem(font-size, 16);
+    
 }

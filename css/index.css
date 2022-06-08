@@ -10,7 +10,22 @@ body {
 }
 
 .btn {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px #00966B;
+  width: 11.34rem;
+  height: 3.78rem;
+  font-size: 1.134rem;
+  font-weight: 600;
+}
+
+.btn--fill {
+  color: #fff;
+  background: #00966B;
+}
+
+.btn--border {
+  background: #fff;
+  color: #00966B;
 }
 
 .base {
@@ -90,27 +105,86 @@ nav.base {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
+  padding: 0 1.8rem;
 }
 
 .CTA__heading {
   font-size: 3.906rem;
   font-family: "Sen", sans-serif;
   font-weight: 700;
+  margin-bottom: 1.386rem;
 }
 
 .CTA__desc {
   color: #949494;
+  font-size: 1.134rem;
+  line-height: 1.89rem;
+  margin-bottom: 2.394rem;
+}
+
+.CTA__btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4.41rem;
+}
+.CTA__btns .btn--border {
+  margin-left: 2rem;
+}
+
+.CTA__metrics {
+  margin-bottom: 9.891rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.metric .stat {
+  color: #0D4132;
+  font-weight: 600;
+  font-size: 1.89rem;
+}
+.metric .text {
+  font-size: 1.008rem;
+  color: #1C1102;
 }
 
 .video {
   position: relative;
 }
+.video:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -5rem;
+  top: 2rem;
+  background: #08392B;
+  z-index: -1;
+}
 
-.vdeo__play {
+.video__play {
   position: absolute;
   right: 0;
   left: 0;
   top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 6.426rem;
+  height: 6.426rem;
+  border-radius: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=index.css.map */

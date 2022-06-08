@@ -1,7 +1,22 @@
 @import "mixins";
 @import "variables";
 .btn{
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+    border: solid 1px #00966B;
+    @include toRem(width, 180);
+    @include toRem(height, 60);
+    @include toRem(font-size, 18);
+    font-weight: 600;
+}
+.btn--fill{
+    color: #fff;
+    background: #00966B;
+    
+}
+.btn--border{
+    background: #fff;
+    color: #00966B;
+    
 }
 .base{
     width: 100%;
