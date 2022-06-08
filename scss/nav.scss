@@ -28,6 +28,20 @@ nav.base{
     font-size: $font-16;
     
     // @include toRem(font-size, 16);
+    &:hover{
+        color: $primary-color;
+        position: relative;
+        &:after{
+            content:"";
+            width:40%;
+            height: 0.2rem;
+            border-radius: 10rem;
+            position: absolute;
+            bottom: -0.1rem;
+            left: 0;
+            background: $primary-color;
+        }
+    }
 }
 
 .nav-item.active{
