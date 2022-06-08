@@ -1,0 +1,12 @@
+{
+  "name": "gldr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass -w scss/index.scss:css/index.css"
+  },
+  "keywords": [],
+  "author": "Fiyin",
+  "license": "ISC"
+}
