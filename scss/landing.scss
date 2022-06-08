@@ -1,0 +1,25 @@
+.landing{
+    display: flex;
+}
+.CTA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CTA__heading{
+    @include toRem(font-size, 62);
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+}
+.CTA__desc{
+    color:#949494;
+}
+.video{
+    position: relative;
+}
+.vdeo__play{
+    position: absolute;
+    right: 0;
+    left:0;
+    top:0;
+}

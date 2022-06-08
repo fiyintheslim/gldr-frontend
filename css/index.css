@@ -4,4 +4,113 @@
   margin: 0;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  min-width: 1440px;
+}
+
+.btn {
+  border-radius: 1rem;
+}
+
+.base {
+  width: 100%;
+  padding: 0 8.505rem;
+}
+
+section {
+  margin-top: 8.442rem;
+}
+
+nav.base {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2.772rem;
+  color: #3B4240;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+.nav-item {
+  font-weight: 600;
+  font-size: 1.008rem;
+}
+
+.active {
+  color: #00966B;
+  position: relative;
+}
+.active:after {
+  content: "";
+  width: 40%;
+  height: 0.2rem;
+  border-radius: 10rem;
+  position: absolute;
+  bottom: -0.1rem;
+  left: 0;
+  background: #00966B;
+}
+
+.signup {
+  width: 9.072rem;
+  height: 3.15rem;
+  border-radius: 0.504rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #fff;
+  background: #00966B;
+  font-weight: 600;
+  font-size: 1.008rem;
+}
+
+.landing {
+  display: flex;
+}
+
+.CTA {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CTA__heading {
+  font-size: 3.906rem;
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+}
+
+.CTA__desc {
+  color: #949494;
+}
+
+.video {
+  position: relative;
+}
+
+.vdeo__play {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
 /*# sourceMappingURL=index.css.map */

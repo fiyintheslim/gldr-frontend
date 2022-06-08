@@ -1,0 +1,58 @@
+@import "mixins";
+@import "variables";
+nav.base{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include toRem(padding-top, 44);
+    color: #3B4240;
+
+}
+.logo{
+    flex-grow: 1;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:50%;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.nav-item{
+    font-weight: 600;
+    font-size: $font-16;
+    // @include toRem(font-size, 16);
+}
+
+.active{
+    color: $primary-color;
+    position: relative;
+    &:after{
+        content:"";
+        width:40%;
+        height: 0.2rem;
+        border-radius: 10rem;
+        position: absolute;
+        bottom: -0.1rem;
+        left: 0;
+        background: $primary-color;
+    }
+}
+.signup{
+    @include toRem(width, 144);
+    @include toRem(height, 50);
+    @include toRem(border-radius, 8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color: #fff;
+    background: $primary-color;
+    font-weight: 600;
+    @include toRem(font-size, 16);
+}
