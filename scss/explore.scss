@@ -45,11 +45,9 @@
 }
 .card{
     margin: 0.5rem;
-    
-    
-    
+    border-radius: 10px 10px 0px 0px;    
     @include toRem(width, 270);
-    @include toRem(height, 408);
+    
     &:hover{
         box-shadow: 0px 5px 15px 10px rgba(0, 0, 0, 0.2)
     }
@@ -61,9 +59,19 @@
         align-items: flex-start;
         justify-content: space-between;
         padding: 1rem;
+        height: 13rem;
     }
 }
 .course-img{
     width: 100%;
     object-fit: cover;
+}
+.card__title{
+    @include toRem(font-size, 16);
+    font-weight: 600;
+}
+.card__desc{
+    color: #615D57;
+    @include toRem(font-size, 14);
+    font-weight: 400;
 }

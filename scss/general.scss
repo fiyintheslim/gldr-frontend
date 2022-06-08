@@ -22,6 +22,25 @@
     width: 100%;
     padding: 0 $edge-padding;
 }
+.controller{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    .prev, .next{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.3rem;
+        border: solid 1px $primary-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .next{
+        background: $primary-color;
+        margin-left: 0.5rem;
+    }
+}
 section{
     @include toRem(margin-top, 134);
 }
