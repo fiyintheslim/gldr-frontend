@@ -1,0 +1,24 @@
+@import "mixins";
+@import "variables";
+
+.subscribe{
+    background: $primary-color;
+    @include toRem(padding, 37);
+}
+
+.subscribe__heading{
+    font-family:"Sen", sans-serif;
+    text-align: center;
+    font-weight: 700;
+    @include toRem(font-size, 42);
+    @include toRem(margin-bottom, 16);
+}
+
+.subscribe__desc{
+    text-align: center;
+    width: 20rem;
+    margin: 0 auto;
+    @include toRem(font-size, 16);
+    @include toRem(line-height, 28);
+    @include toRem(margin-bottom, 38)
+}

@@ -140,7 +140,7 @@ nav.base {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  padding: 0 1.8rem;
+  padding-right: 1.8rem;
 }
 
 .CTA__heading {
@@ -516,6 +516,28 @@ nav.base {
 .btn__text__top {
   font-size: 0.6rem;
   font-weight: 700;
+}
+
+.subscribe {
+  background: #00966B;
+  padding: 2.331rem;
+}
+
+.subscribe__heading {
+  font-family: "Sen", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.646rem;
+  margin-bottom: 1.008rem;
+}
+
+.subscribe__desc {
+  text-align: center;
+  width: 20rem;
+  margin: 0 auto;
+  font-size: 1.008rem;
+  line-height: 1.764rem;
+  margin-bottom: 2.394rem;
 }
 
 /*# sourceMappingURL=index.css.map */
