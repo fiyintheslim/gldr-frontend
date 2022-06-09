@@ -380,4 +380,65 @@ nav.base {
   color: #615D57;
 }
 
+.instructors__heading {
+  font-size: 3.024rem;
+  margin-bottom: 1.386rem;
+  font-family: "Sen", sans-serif;
+  text-align: center;
+  font-weight: 700;
+}
+
+.instructors__desc {
+  margin: 0 auto;
+  font-size: 1.134rem;
+  margin-bottom: 2.898rem;
+  text-align: center;
+  color: #676767;
+  width: 35rem;
+}
+
+.instructors__imgs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3.402rem;
+}
+
+.instructor {
+  position: relative;
+}
+
+.instructor__img {
+  width: 100%;
+  height: 100%;
+}
+
+.instructor__info {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.instructor__field {
+  font-size: 1.008rem;
+  font-family: "Sen", sans-serif;
+  color: #BDBDBD;
+  font-weight: 700;
+}
+
+.instructor__name {
+  font-size: 1.701rem;
+  color: #fff;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.social {
+  margin-right: 0.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
 /*# sourceMappingURL=index.css.map */

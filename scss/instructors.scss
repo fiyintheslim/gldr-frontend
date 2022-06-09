@@ -1,0 +1,68 @@
+@import "mixins";
+@import "variables";
+
+.instructors{
+    
+}
+
+.instructors__heading{
+    @include toRem(font-size, 48);
+    @include toRem(margin-bottom, 22);
+    font-family: "Sen", sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+.instructors__desc{
+    margin: 0 auto;
+    @include toRem(font-size, 18);
+    @include toRem(margin-bottom, 46);
+    text-align: center;
+    color: #676767;
+    width: 35rem;
+}
+
+.instructors__imgs{
+    display: flex;
+    justify-content: space-around;
+    @include toRem(margin-bottom, 54);
+}
+.instructor{
+    position: relative;
+
+}
+
+.instructor__img{
+    width: 100%;
+    height: 100%;
+}
+
+.instructor__info{
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.instructor__field{
+    @include toRem(font-size, 16);
+    font-family: "Sen", sans-serif;
+    color: #BDBDBD;
+    font-weight: 700;
+}
+.instructor__name{
+    @include toRem(font-size, 27);
+    color: #fff;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+.instructor__socials{
+    
+}
+.social{
+    margin-right: 0.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
