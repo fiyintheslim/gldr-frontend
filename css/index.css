@@ -93,7 +93,7 @@ nav.base {
 }
 .nav-item:hover:after {
   content: "";
-  width: 40%;
+  width: 1rem;
   height: 0.2rem;
   border-radius: 10rem;
   position: absolute;
@@ -108,7 +108,7 @@ nav.base {
 }
 .nav-item.active:after {
   content: "";
-  width: 40%;
+  width: 1rem;
   height: 0.2rem;
   border-radius: 10rem;
   position: absolute;
@@ -160,7 +160,7 @@ nav.base {
 .CTA__btns {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 4.41rem;
 }
@@ -439,6 +439,58 @@ nav.base {
   margin-right: 0.5rem;
   width: 1.2rem;
   height: 1.2rem;
+}
+
+.install {
+  background: #141623;
+  border-radius: 0.4rem;
+  background-image: url("../resources/lines.png");
+  display: flex;
+  height: 28.539rem;
+  font-family: "Inter", sans-serif;
+}
+
+.install__CTA {
+  width: 50.4rem;
+  padding: 3rem;
+}
+
+.install__CTA__heading {
+  font-size: 3.15rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 1rem 0;
+}
+
+.install__CTA__desc {
+  color: #B8BEBD;
+  font-size: 1.134rem;
+  line-height: 1.764rem;
+  margin-bottom: 4.851rem;
+}
+
+.install__CTA__btns {
+  width: 25rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.install__imgs {
+  position: relative;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.phone-top {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.phone-bottom {
+  position: absolute;
+  right: 4rem;
+  top: 0;
 }
 
 /*# sourceMappingURL=index.css.map */

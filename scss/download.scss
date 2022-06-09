@@ -4,4 +4,47 @@
 .install{
     background: #141623;
     border-radius: 0.4rem;
+    background-image: url("../resources/lines.png");
+    display: flex;
+    @include toRem(height, 453);
+    font-family: "Inter", sans-serif;
+}
+.install__CTA{
+    @include toRem(width, 800);
+    padding: 3rem;
+}
+.install__CTA__heading{
+    @include toRem(font-size, 50);
+    font-weight: 700;
+    color: #fff;
+    margin: 1rem 0;
+}
+.install__CTA__desc{
+    color: #B8BEBD;
+    @include toRem(font-size, 18);
+    @include toRem(line-height, 28);
+    @include toRem(margin-bottom, 77);
+}
+
+.install__CTA__btns{
+    
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.install__imgs{
+    position: relative;
+    flex-grow: 1;
+    height: 100%;
+}
+.phone-top{
+    position: absolute;
+    left: 0;
+    bottom:0;
+}
+.phone-bottom{
+    position: absolute;
+    right: 4rem;
+    top:0;
 }
